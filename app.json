@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Klimatik",
+    "slug": "klima-antigravity",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A192F"
+    },
+    "scheme": "klimaantigravity",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/images/icon.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A192F",
+        "foregroundImage": "./assets/images/icon.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.rmznkrtls.klimaantigravity"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0A192F",
+          "image": "./assets/images/icon.png"
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": true,
+          "modes": ["peripheral", "central"],
+          "bluetoothAlwaysPermission": "Allow Klimatik to connect to your air conditioner via Bluetooth."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "12f97ee4-949f-4615-8584-caeb95260fd5"
+      }
+    },
+    "owner": "rmznkrtls"
+  }
+}

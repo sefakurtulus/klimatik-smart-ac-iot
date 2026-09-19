@@ -1,0 +1,110 @@
+# ===========================
+# Node.js / npm
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ===========================
+# Expo / React Native
+# ===========================
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# ===========================
+# Android Build
+# ===========================
+android/app/build/
+android/.gradle/
+android/build/
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+
+# ===========================
+# iOS Build
+# ===========================
+ios/Pods/
+ios/build/
+*.ipa
+
+# ===========================
+# Environment / Secrets
+# ===========================
+.env
+.env.local
+.env.production
+.env.development
+
+# ===========================
+# Gerçek API Key İçeren Kaynak Dosyalar
+# (GitHub'a _git versiyonları yüklenir)
+# ===========================
+src/services/firebaseService.ts
+src/constants/api.ts
+esp32/klima_esp32_main/klima_esp32_main copy.ino
+esp32/klima_esp32_main/klima_esp32_main.ino
+esp32/klima_esp32_main/klima_esp32_main.ino.bak
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Log Files
+# ===========================
+*.log
+logcat_dump.txt
+crash_log.txt
+
+# ===========================
+# Geçici / Yedek Dosyalar
+# ===========================
+*.bak
+*.tmp
+*.temp
+esp_yedek.txt
+idekod.txt
+fix-readonly.ps1
+
+# ===========================
+# Tasarım ve İstatistik Prototipleri (Ayrı Web Projeleri)
+# ===========================
+tasarım/
+istatistikler/
+
+# ===========================
+# Geçici Notlar ve Görseller
+# ===========================
+notlar/
+görseller/
+Bağlantılar.txt
+*.docx
+app_ui_architecture.md
+
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+*.DS_Store
+
+# ===========================
+# Windows
+# ===========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
